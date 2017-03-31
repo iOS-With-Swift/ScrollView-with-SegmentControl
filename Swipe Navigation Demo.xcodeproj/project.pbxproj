@@ -14,6 +14,10 @@
 		26A542951E8DDCB200D40A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A542931E8DDCB200D40A52 /* LaunchScreen.storyboard */; };
 		26A542A01E8DDCB300D40A52 /* Swipe_Navigation_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5429F1E8DDCB300D40A52 /* Swipe_Navigation_DemoTests.swift */; };
 		26A542AB1E8DDCB300D40A52 /* Swipe_Navigation_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A542AA1E8DDCB300D40A52 /* Swipe_Navigation_DemoUITests.swift */; };
+		26A542BA1E8DDED800D40A52 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A542B81E8DDED800D40A52 /* ViewController1.swift */; };
+		26A542BB1E8DDED800D40A52 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A542B91E8DDED800D40A52 /* ViewController1.xib */; };
+		26A542BE1E8DDEEC00D40A52 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A542BC1E8DDEEC00D40A52 /* ViewController2.swift */; };
+		26A542BF1E8DDEEC00D40A52 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A542BD1E8DDEEC00D40A52 /* ViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		26A542A61E8DDCB300D40A52 /* Swipe Navigation DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe Navigation DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A542AA1E8DDCB300D40A52 /* Swipe_Navigation_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe_Navigation_DemoUITests.swift; sourceTree = "<group>"; };
 		26A542AC1E8DDCB300D40A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A542B81E8DDED800D40A52 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		26A542B91E8DDED800D40A52 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		26A542BC1E8DDEEC00D40A52 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		26A542BD1E8DDEEC00D40A52 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				26A5428A1E8DDCB200D40A52 /* AppDelegate.swift */,
 				26A5428C1E8DDCB200D40A52 /* ViewController.swift */,
 				26A5428E1E8DDCB200D40A52 /* Main.storyboard */,
+				26A542B81E8DDED800D40A52 /* ViewController1.swift */,
+				26A542B91E8DDED800D40A52 /* ViewController1.xib */,
+				26A542BC1E8DDEEC00D40A52 /* ViewController2.swift */,
+				26A542BD1E8DDEEC00D40A52 /* ViewController2.xib */,
 				26A542911E8DDCB200D40A52 /* Assets.xcassets */,
 				26A542931E8DDCB200D40A52 /* LaunchScreen.storyboard */,
 				26A542961E8DDCB200D40A52 /* Info.plist */,
@@ -193,7 +205,6 @@
 				TargetAttributes = {
 					26A542861E8DDCB200D40A52 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 8FWWK23S85;
 						ProvisioningStyle = Automatic;
 					};
 					26A5429A1E8DDCB300D40A52 = {
@@ -235,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A542BF1E8DDEEC00D40A52 /* ViewController2.xib in Resources */,
+				26A542BB1E8DDED800D40A52 /* ViewController1.xib in Resources */,
 				26A542951E8DDCB200D40A52 /* LaunchScreen.storyboard in Resources */,
 				26A542921E8DDCB200D40A52 /* Assets.xcassets in Resources */,
 				26A542901E8DDCB200D40A52 /* Main.storyboard in Resources */,
@@ -262,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A542BA1E8DDED800D40A52 /* ViewController1.swift in Sources */,
+				26A542BE1E8DDEEC00D40A52 /* ViewController2.swift in Sources */,
 				26A5428D1E8DDCB200D40A52 /* ViewController.swift in Sources */,
 				26A5428B1E8DDCB200D40A52 /* AppDelegate.swift in Sources */,
 			);
@@ -417,7 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FWWK23S85;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Swipe Navigation Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edu.example.Swipe-Navigation-Demo";
@@ -430,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FWWK23S85;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Swipe Navigation Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edu.example.Swipe-Navigation-Demo";
